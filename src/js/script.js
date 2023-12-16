@@ -7,7 +7,8 @@ alert(admin);
 
 // Task #2
 let planet = 'Earth';
-let visitorName = 'Visitor_name';
+let visitorName = prompt('Enter your name');
+alert('Hello,' + visitorName + '! How are you?');
 
 // Task #3
 let myVariable = '10' + 10;
