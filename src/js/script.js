@@ -6,7 +6,7 @@ const name = "John";
 alert(admin);
 
 // Task #2
-const planet = 'Earth';
+let planet = 'Earth';
 const visitorName = prompt('Enter your name');
 alert('Hello,' + visitorName + '! How are you?');
 
