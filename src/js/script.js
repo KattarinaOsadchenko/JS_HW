@@ -2,7 +2,7 @@
 // Task 1
 let userName = prompt('Enter your name');
 let day = prompt('Enter what day it is');
-let mood = prompt('Enter what you are today');
+let mood = prompt('Enter what your mood today');
 
 let result= userName + day + mood;
 
