@@ -1,10 +1,10 @@
 'use strict';
 // Task 1
-let userName = prompt('Enter your name?');
-let day = prompt('Enter what day it is?');
-let mood = prompt('Enter what is your mood today?');
+const userName = prompt('Enter your name?');
+const day = prompt('Enter what day it is?');
+const mood = prompt('Enter what is your mood today?');
 
-let result= userName + day + mood;
+const result= userName + day + mood;
 
 console.log('result', result)
 
