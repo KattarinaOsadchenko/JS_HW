@@ -1,1 +1,16 @@
 'use strict';
+
+// Task 1
+let admin;
+const name = 'John';
+admin = name;
+alert (admin);
+
+// Task 2
+const planet = 'Earth';
+const userName = prompt ('Enter your name');
+
+console.log (userName);
+console.log (planet);
+
+// Task 3
