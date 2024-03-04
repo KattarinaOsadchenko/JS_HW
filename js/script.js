@@ -18,4 +18,4 @@ const salaries = {
 }
 
 
-console.log (salaries.John+salaries.Ann+salaries.Pete)
+const sum = (salaries.John+salaries.Ann+salaries.Pete)
