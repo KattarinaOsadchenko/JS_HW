@@ -1,7 +1,7 @@
 'use strict';
 
-let numberOne = +prompt('Enter first number');
-let numberTwo = +prompt('Enter second number');
+const numberOne = +prompt('Enter first number');
+const numberTwo = +prompt('Enter second number');
 
 const sum = numberOne + numberTwo;
 const difference = numberOne - numberTwo;
