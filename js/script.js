@@ -13,5 +13,5 @@ console.log (num.length)
 if (num<0) {
     console.log('number'+num+'negative')
 } else {
-console.log('number'+num+'positive')
+console.log('number'+''+num+''+'positive')
 }
