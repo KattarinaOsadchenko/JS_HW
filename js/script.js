@@ -1,8 +1,11 @@
 'use strict';
 
 const numOrStr = prompt('input number or string');
+
 console.log(numOrStr);
+
 switch (true) {
+
     case numOrStr === null:
         console.log('ви скасували');
         break
@@ -14,4 +17,6 @@ switch (true) {
         break
     default:
         console.log('OK!');
+
 }
+
