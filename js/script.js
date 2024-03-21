@@ -38,20 +38,21 @@ if (a===0 || a===2){
 console.log(a);
 
 // 11
-let b = 4
+let q = 0;
+let b = 4;
 let sum;
 let difference;
-if (a <= 1 && b >= 3 ) {
-    sum = a + b;
+if (q <= 1 && b >= 3 ) {
+    sum = q + b;
     console.log(sum);
 } else {
-    difference = a - b;
+    difference = q - b;
     console.log(difference);
 }
 
 // 12
 
-let score = ((a > 2 && a < 11) || (b >= 6 && b < 14)) ? 'Вірно' : 'Невірно';
+const score = ((q > 2 && q < 11) || (b >= 6 && b < 14)) ? 'Вірно' : 'Невірно';
 console.log(score);
 
 // 13
