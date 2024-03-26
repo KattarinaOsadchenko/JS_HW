@@ -33,3 +33,26 @@ console.log(arr.slice(0,3));
 
 // 8
 console.log(arr.slice(3));
+
+
+// 9
+const array = [1, 2, 3, 4, 5];
+console.log(array.splice(1,2));
+console.log(array);
+
+// 10
+const arrB = [1, 2, 3, 4, 5];
+console.log(arrB.splice(1,3));
+
+// 11
+const arrayB = [1, 2, 3, 4, 5];
+arrayB.splice(3,0,"a","b","c");
+console.log(arrayB);
+
+// 12
+const arrayC = [1, 2, 3, 4, 5];
+arrayC.splice(2,0,'a','b');
+arrayC.splice(6,0, 'c');
+arrayC.push('e');
+console.log(arrayC);
+
